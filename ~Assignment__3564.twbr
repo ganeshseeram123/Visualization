@@ -1,0 +1,3216 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0308.0326                               -->
+<workbook original-version='18.1' source-build='2024.1.1 (20241.24.0308.0326)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='world-data-2023 (world-data-2023)' inline='true' name='federated.0rmh2ry1l3ma3a16ebj811tfqx5y' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='world-data-2023' name='excel-direct.1hx1n4a00ud8z510227ay1as3eji'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/bhara/Downloads/vis_project/world-data-2023.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1hx1n4a00ud8z510227ay1as3eji' name='world-data-2023' table='[&apos;world-data-2023$&apos;]' type='table'>
+          <columns gridOrigin='A1:AA194:no:A1:AA194:0' header='yes' outcome='2'>
+            <column datatype='string' name='Country' ordinal='0' />
+            <column datatype='integer' name='Density (P/Km2)' ordinal='1' />
+            <column datatype='real' name='Agricultural Land( %)' ordinal='2' />
+            <column datatype='integer' name='Land Area(Km2)' ordinal='3' />
+            <column datatype='integer' name='Armed Forces size' ordinal='4' />
+            <column datatype='real' name='Birth Rate' ordinal='5' />
+            <column datatype='integer' name='Co2-Emissions' ordinal='6' />
+            <column datatype='real' name='CPI' ordinal='7' />
+            <column datatype='real' name='CPI Change (%)' ordinal='8' />
+            <column datatype='real' name='Fertility Rate' ordinal='9' />
+            <column datatype='real' name='Forested Area (%)' ordinal='10' />
+            <column datatype='string' name='Gasoline Price' ordinal='11' />
+            <column datatype='string' name='GDP' ordinal='12' />
+            <column datatype='real' name='Gross primary education enrollment (%)' ordinal='13' />
+            <column datatype='real' name='Gross tertiary education enrollment (%)' ordinal='14' />
+            <column datatype='real' name='Infant mortality' ordinal='15' />
+            <column datatype='real' name='Life expectancy' ordinal='16' />
+            <column datatype='integer' name='Maternal mortality ratio' ordinal='17' />
+            <column datatype='string' name='Minimum wage' ordinal='18' />
+            <column datatype='real' name='Out of pocket health expenditure' ordinal='19' />
+            <column datatype='real' name='Physicians per thousand' ordinal='20' />
+            <column datatype='integer' name='Population' ordinal='21' />
+            <column datatype='real' name='Population: Labor force participation (%)' ordinal='22' />
+            <column datatype='real' name='Tax revenue (%)' ordinal='23' />
+            <column datatype='real' name='Total tax rate' ordinal='24' />
+            <column datatype='real' name='Unemployment rate' ordinal='25' />
+            <column datatype='integer' name='Urban_population' ordinal='26' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1hx1n4a00ud8z510227ay1as3eji' name='world-data-2023' table='[&apos;world-data-2023$&apos;]' type='table'>
+          <columns gridOrigin='A1:AA194:no:A1:AA194:0' header='yes' outcome='2'>
+            <column datatype='string' name='Country' ordinal='0' />
+            <column datatype='integer' name='Density (P/Km2)' ordinal='1' />
+            <column datatype='real' name='Agricultural Land( %)' ordinal='2' />
+            <column datatype='integer' name='Land Area(Km2)' ordinal='3' />
+            <column datatype='integer' name='Armed Forces size' ordinal='4' />
+            <column datatype='real' name='Birth Rate' ordinal='5' />
+            <column datatype='integer' name='Co2-Emissions' ordinal='6' />
+            <column datatype='real' name='CPI' ordinal='7' />
+            <column datatype='real' name='CPI Change (%)' ordinal='8' />
+            <column datatype='real' name='Fertility Rate' ordinal='9' />
+            <column datatype='real' name='Forested Area (%)' ordinal='10' />
+            <column datatype='string' name='Gasoline Price' ordinal='11' />
+            <column datatype='string' name='GDP' ordinal='12' />
+            <column datatype='real' name='Gross primary education enrollment (%)' ordinal='13' />
+            <column datatype='real' name='Gross tertiary education enrollment (%)' ordinal='14' />
+            <column datatype='real' name='Infant mortality' ordinal='15' />
+            <column datatype='real' name='Life expectancy' ordinal='16' />
+            <column datatype='integer' name='Maternal mortality ratio' ordinal='17' />
+            <column datatype='string' name='Minimum wage' ordinal='18' />
+            <column datatype='real' name='Out of pocket health expenditure' ordinal='19' />
+            <column datatype='real' name='Physicians per thousand' ordinal='20' />
+            <column datatype='integer' name='Population' ordinal='21' />
+            <column datatype='real' name='Population: Labor force participation (%)' ordinal='22' />
+            <column datatype='real' name='Tax revenue (%)' ordinal='23' />
+            <column datatype='real' name='Total tax rate' ordinal='24' />
+            <column datatype='real' name='Unemployment rate' ordinal='25' />
+            <column datatype='integer' name='Urban_population' ordinal='26' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[world-data-2023]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>2</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AA194:no:A1:AA194:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[world-data-2023]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023_5C0DF60A899A4D64B29007905CBD5488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Density (P/Km2)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Density (P/Km2)]</local-name>
+            <parent-name>[world-data-2023]</parent-name>
+            <remote-alias>Density (P/Km2)</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023_5C0DF60A899A4D64B29007905CBD5488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Agricultural Land( %)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Agricultural Land( %)]</local-name>
+            <parent-name>[world-data-2023]</parent-name>
+            <remote-alias>Agricultural Land( %)</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023_5C0DF60A899A4D64B29007905CBD5488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Land Area(Km2)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Land Area(Km2)]</local-name>
+            <parent-name>[world-data-2023]</parent-name>
+            <remote-alias>Land Area(Km2)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023_5C0DF60A899A4D64B29007905CBD5488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Armed Forces size</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Armed Forces size]</local-name>
+            <parent-name>[world-data-2023]</parent-name>
+            <remote-alias>Armed Forces size</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023_5C0DF60A899A4D64B29007905CBD5488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Birth Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Birth Rate]</local-name>
+            <parent-name>[world-data-2023]</parent-name>
+            <remote-alias>Birth Rate</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023_5C0DF60A899A4D64B29007905CBD5488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Co2-Emissions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Co2-Emissions]</local-name>
+            <parent-name>[world-data-2023]</parent-name>
+            <remote-alias>Co2-Emissions</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023_5C0DF60A899A4D64B29007905CBD5488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CPI</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CPI]</local-name>
+            <parent-name>[world-data-2023]</parent-name>
+            <remote-alias>CPI</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023_5C0DF60A899A4D64B29007905CBD5488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CPI Change (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CPI Change (%)]</local-name>
+            <parent-name>[world-data-2023]</parent-name>
+            <remote-alias>CPI Change (%)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023_5C0DF60A899A4D64B29007905CBD5488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fertility Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Fertility Rate]</local-name>
+            <parent-name>[world-data-2023]</parent-name>
+            <remote-alias>Fertility Rate</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023_5C0DF60A899A4D64B29007905CBD5488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Forested Area (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Forested Area (%)]</local-name>
+            <parent-name>[world-data-2023]</parent-name>
+            <remote-alias>Forested Area (%)</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023_5C0DF60A899A4D64B29007905CBD5488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gasoline Price</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Gasoline Price]</local-name>
+            <parent-name>[world-data-2023]</parent-name>
+            <remote-alias>Gasoline Price</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023_5C0DF60A899A4D64B29007905CBD5488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GDP</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[GDP]</local-name>
+            <parent-name>[world-data-2023]</parent-name>
+            <remote-alias>GDP</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023_5C0DF60A899A4D64B29007905CBD5488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gross primary education enrollment (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Gross primary education enrollment (%)]</local-name>
+            <parent-name>[world-data-2023]</parent-name>
+            <remote-alias>Gross primary education enrollment (%)</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023_5C0DF60A899A4D64B29007905CBD5488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gross tertiary education enrollment (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Gross tertiary education enrollment (%)]</local-name>
+            <parent-name>[world-data-2023]</parent-name>
+            <remote-alias>Gross tertiary education enrollment (%)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023_5C0DF60A899A4D64B29007905CBD5488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Infant mortality</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Infant mortality]</local-name>
+            <parent-name>[world-data-2023]</parent-name>
+            <remote-alias>Infant mortality</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023_5C0DF60A899A4D64B29007905CBD5488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Life expectancy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Life expectancy]</local-name>
+            <parent-name>[world-data-2023]</parent-name>
+            <remote-alias>Life expectancy</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023_5C0DF60A899A4D64B29007905CBD5488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Maternal mortality ratio</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Maternal mortality ratio]</local-name>
+            <parent-name>[world-data-2023]</parent-name>
+            <remote-alias>Maternal mortality ratio</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023_5C0DF60A899A4D64B29007905CBD5488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Minimum wage</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Minimum wage]</local-name>
+            <parent-name>[world-data-2023]</parent-name>
+            <remote-alias>Minimum wage</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023_5C0DF60A899A4D64B29007905CBD5488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Out of pocket health expenditure</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Out of pocket health expenditure]</local-name>
+            <parent-name>[world-data-2023]</parent-name>
+            <remote-alias>Out of pocket health expenditure</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023_5C0DF60A899A4D64B29007905CBD5488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Physicians per thousand</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Physicians per thousand]</local-name>
+            <parent-name>[world-data-2023]</parent-name>
+            <remote-alias>Physicians per thousand</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023_5C0DF60A899A4D64B29007905CBD5488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Population]</local-name>
+            <parent-name>[world-data-2023]</parent-name>
+            <remote-alias>Population</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023_5C0DF60A899A4D64B29007905CBD5488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population: Labor force participation (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Population: Labor force participation (%)]</local-name>
+            <parent-name>[world-data-2023]</parent-name>
+            <remote-alias>Population: Labor force participation (%)</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023_5C0DF60A899A4D64B29007905CBD5488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tax revenue (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Tax revenue (%)]</local-name>
+            <parent-name>[world-data-2023]</parent-name>
+            <remote-alias>Tax revenue (%)</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023_5C0DF60A899A4D64B29007905CBD5488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total tax rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total tax rate]</local-name>
+            <parent-name>[world-data-2023]</parent-name>
+            <remote-alias>Total tax rate</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023_5C0DF60A899A4D64B29007905CBD5488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unemployment rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Unemployment rate]</local-name>
+            <parent-name>[world-data-2023]</parent-name>
+            <remote-alias>Unemployment rate</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023_5C0DF60A899A4D64B29007905CBD5488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Urban_population</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Urban_population]</local-name>
+            <parent-name>[world-data-2023]</parent-name>
+            <remote-alias>Urban_population</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023_5C0DF60A899A4D64B29007905CBD5488]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Forest Area in Km2' datatype='real' name='[Calculation_1511802109248065536]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Land Area(Km2)]*[Forested Area (%)]' />
+      </column>
+      <column caption='Agriculatural Land In Km2 ' datatype='real' name='[Calculation_1511802109257740290]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Land Area(Km2)]*[Agricultural Land( %)]' />
+      </column>
+      <column datatype='integer' name='[Calling Code]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Capital/Major City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='integer' name='[Co2-Emissions]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='real' name='[Forested Area (%)]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Largest city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column aggregation='Avg' datatype='real' name='[Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Urban population' datatype='integer' name='[Urban_population]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='world-data-2023' datatype='table' name='[__tableau_internal_object_id__].[world-data-2023_5C0DF60A899A4D64B29007905CBD5488]' role='measure' type='quantitative' />
+      <column-instance column='[Calculation_1511802109248065536]' derivation='Sum' name='[sum:Calculation_1511802109248065536:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Co2-Emissions]' derivation='Sum' name='[sum:Co2-Emissions:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Forested Area (%)]' derivation='Sum' name='[sum:Forested Area (%):qk]' pivot='key' type='quantitative' />
+      <group caption='Action (Country)' hidden='true' name='[Action (Country)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Country]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Co2-Emissions:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Calculation_1511802109248065536:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Forested Area (\%):qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='world-data-2023' id='world-data-2023_5C0DF60A899A4D64B29007905CBD5488'>
+            <properties context=''>
+              <relation connection='excel-direct.1hx1n4a00ud8z510227ay1as3eji' name='world-data-2023' table='[&apos;world-data-2023$&apos;]' type='table'>
+                <columns gridOrigin='A1:AA194:no:A1:AA194:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Country' ordinal='0' />
+                  <column datatype='integer' name='Density (P/Km2)' ordinal='1' />
+                  <column datatype='real' name='Agricultural Land( %)' ordinal='2' />
+                  <column datatype='integer' name='Land Area(Km2)' ordinal='3' />
+                  <column datatype='integer' name='Armed Forces size' ordinal='4' />
+                  <column datatype='real' name='Birth Rate' ordinal='5' />
+                  <column datatype='integer' name='Co2-Emissions' ordinal='6' />
+                  <column datatype='real' name='CPI' ordinal='7' />
+                  <column datatype='real' name='CPI Change (%)' ordinal='8' />
+                  <column datatype='real' name='Fertility Rate' ordinal='9' />
+                  <column datatype='real' name='Forested Area (%)' ordinal='10' />
+                  <column datatype='string' name='Gasoline Price' ordinal='11' />
+                  <column datatype='string' name='GDP' ordinal='12' />
+                  <column datatype='real' name='Gross primary education enrollment (%)' ordinal='13' />
+                  <column datatype='real' name='Gross tertiary education enrollment (%)' ordinal='14' />
+                  <column datatype='real' name='Infant mortality' ordinal='15' />
+                  <column datatype='real' name='Life expectancy' ordinal='16' />
+                  <column datatype='integer' name='Maternal mortality ratio' ordinal='17' />
+                  <column datatype='string' name='Minimum wage' ordinal='18' />
+                  <column datatype='real' name='Out of pocket health expenditure' ordinal='19' />
+                  <column datatype='real' name='Physicians per thousand' ordinal='20' />
+                  <column datatype='integer' name='Population' ordinal='21' />
+                  <column datatype='real' name='Population: Labor force participation (%)' ordinal='22' />
+                  <column datatype='real' name='Tax revenue (%)' ordinal='23' />
+                  <column datatype='real' name='Total tax rate' ordinal='24' />
+                  <column datatype='real' name='Unemployment rate' ordinal='25' />
+                  <column datatype='integer' name='Urban_population' ordinal='26' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='world-data-2023+' inline='true' name='federated.09plpi213ud9ws18hbhhq0gunja3' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='world-data-2023' name='textscan.1078oqc0vycntf1gleguy0uld06m'>
+            <connection class='textscan' directory='C:/Users/bhara/Downloads/vis_project' filename='world-data-2023.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1078oqc0vycntf1gleguy0uld06m' name='Crops_AllData_Normalized.csv' table='[Crops_AllData_Normalized#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Country ' ordinal='0' />
+            <column datatype='string' name='Item' ordinal='1' />
+            <column datatype='integer' name='Year' ordinal='2' />
+            <column datatype='string' name='Unit' ordinal='3' />
+            <column datatype='integer' name='Value' ordinal='4' />
+            <column datatype='string' name='F6' ordinal='5' />
+            <column datatype='string' name='F7' ordinal='6' />
+            <column datatype='string' name='F8' ordinal='7' />
+            <column datatype='string' name='F9' ordinal='8' />
+            <column datatype='string' name='F10' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='textscan.1078oqc0vycntf1gleguy0uld06m' name='world-data-2023.csv' table='[world-data-2023#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='Country' ordinal='0' />
+              <column datatype='integer' name='Density_(P/Km2)' ordinal='1' />
+              <column datatype='real' name='Agricultural Land( %)' ordinal='2' />
+              <column datatype='string' name='Land Area(Km2)' ordinal='3' />
+              <column datatype='string' name='Armed Forces size' ordinal='4' />
+              <column datatype='real' name='Birth Rate' ordinal='5' />
+              <column datatype='string' name='Co2-Emissions' ordinal='6' />
+              <column datatype='real' name='CPI' ordinal='7' />
+              <column datatype='real' name='CPI Change (%)' ordinal='8' />
+              <column datatype='real' name='Fertility Rate' ordinal='9' />
+              <column datatype='real' name='Forested Area (%)' ordinal='10' />
+              <column datatype='string' name='Gasoline Price' ordinal='11' />
+              <column datatype='string' name='GDP' ordinal='12' />
+              <column datatype='real' name='Gross primary education enrollment (%)' ordinal='13' />
+              <column datatype='real' name='Gross tertiary education enrollment (%)' ordinal='14' />
+              <column datatype='real' name='Infant mortality' ordinal='15' />
+              <column datatype='real' name='Life expectancy' ordinal='16' />
+              <column datatype='integer' name='Maternal mortality ratio' ordinal='17' />
+              <column datatype='string' name='Minimum wage' ordinal='18' />
+              <column datatype='real' name='Out of pocket health expenditure' ordinal='19' />
+              <column datatype='real' name='Physicians per thousand' ordinal='20' />
+              <column datatype='string' name='Population' ordinal='21' />
+              <column datatype='real' name='Population: Labor force participation (%)' ordinal='22' />
+              <column datatype='real' name='Tax revenue (%)' ordinal='23' />
+              <column datatype='real' name='Total tax rate' ordinal='24' />
+              <column datatype='real' name='Unemployment rate' ordinal='25' />
+              <column datatype='string' name='Urban_population' ordinal='26' />
+            </columns>
+          </relation>
+          <relation connection='textscan.1078oqc0vycntf1gleguy0uld06m' name='List of Countries by GDP Sector Composition.csv' table='[List of Countries by GDP Sector Composition#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='Country/Economy' ordinal='0' />
+              <column datatype='integer' name='GDP (millions of $)' ordinal='1' />
+              <column datatype='integer' name='Agriculture GDP' ordinal='2' />
+              <column datatype='real' name='Agriculture Sector GDP of % Contribution' ordinal='3' />
+              <column datatype='integer' name='World Wide Industry Sector GDP Contribution' ordinal='4' />
+              <column datatype='real' name='Industry Sector GDP of % Contribution' ordinal='5' />
+              <column datatype='integer' name='Services GDP' ordinal='6' />
+              <column datatype='real' name='% of GDP' ordinal='7' />
+            </columns>
+          </relation>
+          <relation connection='textscan.1078oqc0vycntf1gleguy0uld06m' name='Crops_AllData_Normalized.csv' table='[Crops_AllData_Normalized#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+              <column datatype='string' name='Country ' ordinal='0' />
+              <column datatype='string' name='Item' ordinal='1' />
+              <column datatype='integer' name='Year' ordinal='2' />
+              <column datatype='string' name='Unit' ordinal='3' />
+              <column datatype='integer' name='Value' ordinal='4' />
+              <column datatype='string' name='F6' ordinal='5' />
+              <column datatype='string' name='F7' ordinal='6' />
+              <column datatype='string' name='F8' ordinal='7' />
+              <column datatype='string' name='F9' ordinal='8' />
+              <column datatype='string' name='F10' ordinal='9' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[world-data-2023.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[List of Countries by GDP Sector Composition.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Crops_AllData_Normalized.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[world-data-2023.csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023.csv_9E20C97870E04F399AFE5E9AF7B1E250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Density_(P/Km2)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Density_(P/Km2)]</local-name>
+            <parent-name>[world-data-2023.csv]</parent-name>
+            <remote-alias>Density_(P/Km2)</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023.csv_9E20C97870E04F399AFE5E9AF7B1E250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Agricultural Land( %)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Agricultural Land( %)]</local-name>
+            <parent-name>[world-data-2023.csv]</parent-name>
+            <remote-alias>Agricultural Land( %)</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023.csv_9E20C97870E04F399AFE5E9AF7B1E250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Land Area(Km2)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Land Area(Km2)]</local-name>
+            <parent-name>[world-data-2023.csv]</parent-name>
+            <remote-alias>Land Area(Km2)</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023.csv_9E20C97870E04F399AFE5E9AF7B1E250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Armed Forces size</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Armed Forces size]</local-name>
+            <parent-name>[world-data-2023.csv]</parent-name>
+            <remote-alias>Armed Forces size</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023.csv_9E20C97870E04F399AFE5E9AF7B1E250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Birth Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Birth Rate]</local-name>
+            <parent-name>[world-data-2023.csv]</parent-name>
+            <remote-alias>Birth Rate</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023.csv_9E20C97870E04F399AFE5E9AF7B1E250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Co2-Emissions</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Co2-Emissions]</local-name>
+            <parent-name>[world-data-2023.csv]</parent-name>
+            <remote-alias>Co2-Emissions</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023.csv_9E20C97870E04F399AFE5E9AF7B1E250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CPI</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CPI]</local-name>
+            <parent-name>[world-data-2023.csv]</parent-name>
+            <remote-alias>CPI</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023.csv_9E20C97870E04F399AFE5E9AF7B1E250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CPI Change (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CPI Change (%)]</local-name>
+            <parent-name>[world-data-2023.csv]</parent-name>
+            <remote-alias>CPI Change (%)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023.csv_9E20C97870E04F399AFE5E9AF7B1E250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fertility Rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Fertility Rate]</local-name>
+            <parent-name>[world-data-2023.csv]</parent-name>
+            <remote-alias>Fertility Rate</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023.csv_9E20C97870E04F399AFE5E9AF7B1E250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Forested Area (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Forested Area (%)]</local-name>
+            <parent-name>[world-data-2023.csv]</parent-name>
+            <remote-alias>Forested Area (%)</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023.csv_9E20C97870E04F399AFE5E9AF7B1E250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gasoline Price</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Gasoline Price]</local-name>
+            <parent-name>[world-data-2023.csv]</parent-name>
+            <remote-alias>Gasoline Price</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023.csv_9E20C97870E04F399AFE5E9AF7B1E250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GDP</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GDP]</local-name>
+            <parent-name>[world-data-2023.csv]</parent-name>
+            <remote-alias>GDP</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023.csv_9E20C97870E04F399AFE5E9AF7B1E250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gross primary education enrollment (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Gross primary education enrollment (%)]</local-name>
+            <parent-name>[world-data-2023.csv]</parent-name>
+            <remote-alias>Gross primary education enrollment (%)</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023.csv_9E20C97870E04F399AFE5E9AF7B1E250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gross tertiary education enrollment (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Gross tertiary education enrollment (%)]</local-name>
+            <parent-name>[world-data-2023.csv]</parent-name>
+            <remote-alias>Gross tertiary education enrollment (%)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023.csv_9E20C97870E04F399AFE5E9AF7B1E250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Infant mortality</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Infant mortality]</local-name>
+            <parent-name>[world-data-2023.csv]</parent-name>
+            <remote-alias>Infant mortality</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023.csv_9E20C97870E04F399AFE5E9AF7B1E250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Life expectancy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Life expectancy]</local-name>
+            <parent-name>[world-data-2023.csv]</parent-name>
+            <remote-alias>Life expectancy</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023.csv_9E20C97870E04F399AFE5E9AF7B1E250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Maternal mortality ratio</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Maternal mortality ratio]</local-name>
+            <parent-name>[world-data-2023.csv]</parent-name>
+            <remote-alias>Maternal mortality ratio</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023.csv_9E20C97870E04F399AFE5E9AF7B1E250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Minimum wage</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Minimum wage]</local-name>
+            <parent-name>[world-data-2023.csv]</parent-name>
+            <remote-alias>Minimum wage</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023.csv_9E20C97870E04F399AFE5E9AF7B1E250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Out of pocket health expenditure</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Out of pocket health expenditure]</local-name>
+            <parent-name>[world-data-2023.csv]</parent-name>
+            <remote-alias>Out of pocket health expenditure</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023.csv_9E20C97870E04F399AFE5E9AF7B1E250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Physicians per thousand</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Physicians per thousand]</local-name>
+            <parent-name>[world-data-2023.csv]</parent-name>
+            <remote-alias>Physicians per thousand</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023.csv_9E20C97870E04F399AFE5E9AF7B1E250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Population]</local-name>
+            <parent-name>[world-data-2023.csv]</parent-name>
+            <remote-alias>Population</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023.csv_9E20C97870E04F399AFE5E9AF7B1E250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population: Labor force participation (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Population: Labor force participation (%)]</local-name>
+            <parent-name>[world-data-2023.csv]</parent-name>
+            <remote-alias>Population: Labor force participation (%)</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023.csv_9E20C97870E04F399AFE5E9AF7B1E250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tax revenue (%)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Tax revenue (%)]</local-name>
+            <parent-name>[world-data-2023.csv]</parent-name>
+            <remote-alias>Tax revenue (%)</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023.csv_9E20C97870E04F399AFE5E9AF7B1E250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total tax rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Total tax rate]</local-name>
+            <parent-name>[world-data-2023.csv]</parent-name>
+            <remote-alias>Total tax rate</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023.csv_9E20C97870E04F399AFE5E9AF7B1E250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unemployment rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Unemployment rate]</local-name>
+            <parent-name>[world-data-2023.csv]</parent-name>
+            <remote-alias>Unemployment rate</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023.csv_9E20C97870E04F399AFE5E9AF7B1E250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Urban_population</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Urban_population]</local-name>
+            <parent-name>[world-data-2023.csv]</parent-name>
+            <remote-alias>Urban_population</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[world-data-2023.csv_9E20C97870E04F399AFE5E9AF7B1E250]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country/Economy</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country/Economy]</local-name>
+            <parent-name>[List of Countries by GDP Sector Composition.csv]</parent-name>
+            <remote-alias>Country/Economy</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[List of Countries by GDP Sector Composition.csv_BCD58B1DC18D482F987A5C99D867A0CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GDP (millions of $)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GDP (millions of $)]</local-name>
+            <parent-name>[List of Countries by GDP Sector Composition.csv]</parent-name>
+            <remote-alias>GDP (millions of $)</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[List of Countries by GDP Sector Composition.csv_BCD58B1DC18D482F987A5C99D867A0CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Agriculture GDP</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Agriculture GDP]</local-name>
+            <parent-name>[List of Countries by GDP Sector Composition.csv]</parent-name>
+            <remote-alias>Agriculture GDP</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[List of Countries by GDP Sector Composition.csv_BCD58B1DC18D482F987A5C99D867A0CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Agriculture Sector GDP of % Contribution</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Agriculture Sector GDP of % Contribution]</local-name>
+            <parent-name>[List of Countries by GDP Sector Composition.csv]</parent-name>
+            <remote-alias>Agriculture Sector GDP of % Contribution</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[List of Countries by GDP Sector Composition.csv_BCD58B1DC18D482F987A5C99D867A0CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>World Wide Industry Sector GDP Contribution</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[World Wide Industry Sector GDP Contribution]</local-name>
+            <parent-name>[List of Countries by GDP Sector Composition.csv]</parent-name>
+            <remote-alias>World Wide Industry Sector GDP Contribution</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[List of Countries by GDP Sector Composition.csv_BCD58B1DC18D482F987A5C99D867A0CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Industry Sector GDP of % Contribution</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Industry Sector GDP of % Contribution]</local-name>
+            <parent-name>[List of Countries by GDP Sector Composition.csv]</parent-name>
+            <remote-alias>Industry Sector GDP of % Contribution</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[List of Countries by GDP Sector Composition.csv_BCD58B1DC18D482F987A5C99D867A0CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Services GDP</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Services GDP]</local-name>
+            <parent-name>[List of Countries by GDP Sector Composition.csv]</parent-name>
+            <remote-alias>Services GDP</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[List of Countries by GDP Sector Composition.csv_BCD58B1DC18D482F987A5C99D867A0CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>% of GDP</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[% of GDP]</local-name>
+            <parent-name>[List of Countries by GDP Sector Composition.csv]</parent-name>
+            <remote-alias>% of GDP</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[List of Countries by GDP Sector Composition.csv_BCD58B1DC18D482F987A5C99D867A0CC]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country </remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country ]</local-name>
+            <parent-name>[Crops_AllData_Normalized.csv]</parent-name>
+            <remote-alias>Country </remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crops_AllData_Normalized.csv_3588DBE167AE41E6BB28B5C39E890A0A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Item</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Item]</local-name>
+            <parent-name>[Crops_AllData_Normalized.csv]</parent-name>
+            <remote-alias>Item</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crops_AllData_Normalized.csv_3588DBE167AE41E6BB28B5C39E890A0A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Crops_AllData_Normalized.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crops_AllData_Normalized.csv_3588DBE167AE41E6BB28B5C39E890A0A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unit</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Unit]</local-name>
+            <parent-name>[Crops_AllData_Normalized.csv]</parent-name>
+            <remote-alias>Unit</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crops_AllData_Normalized.csv_3588DBE167AE41E6BB28B5C39E890A0A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Value</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Value]</local-name>
+            <parent-name>[Crops_AllData_Normalized.csv]</parent-name>
+            <remote-alias>Value</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crops_AllData_Normalized.csv_3588DBE167AE41E6BB28B5C39E890A0A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F6</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F6]</local-name>
+            <parent-name>[Crops_AllData_Normalized.csv]</parent-name>
+            <remote-alias>F6</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crops_AllData_Normalized.csv_3588DBE167AE41E6BB28B5C39E890A0A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F7</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F7]</local-name>
+            <parent-name>[Crops_AllData_Normalized.csv]</parent-name>
+            <remote-alias>F7</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crops_AllData_Normalized.csv_3588DBE167AE41E6BB28B5C39E890A0A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F8</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F8]</local-name>
+            <parent-name>[Crops_AllData_Normalized.csv]</parent-name>
+            <remote-alias>F8</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crops_AllData_Normalized.csv_3588DBE167AE41E6BB28B5C39E890A0A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F9</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F9]</local-name>
+            <parent-name>[Crops_AllData_Normalized.csv]</parent-name>
+            <remote-alias>F9</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crops_AllData_Normalized.csv_3588DBE167AE41E6BB28B5C39E890A0A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F10</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F10]</local-name>
+            <parent-name>[Crops_AllData_Normalized.csv]</parent-name>
+            <remote-alias>F10</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Crops_AllData_Normalized.csv_3588DBE167AE41E6BB28B5C39E890A0A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Agriculture GDP]' role='measure' type='quantitative' />
+      <column caption='Agricultural Area Km2' datatype='real' name='[Calculation_1511802109256896513]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Land Area(Km2)]*[Agricultural Land( %)]' />
+      </column>
+      <column caption='Agriculture GDP in %' datatype='real' name='[Calculation_1511802109264007171]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([Agriculture GDP]/[GDP (millions of $)])*100' />
+      </column>
+      <column caption='Industry GDP%' datatype='real' name='[Calculation_1511802109264302084]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([Industry Sector GDP of % Contribution]/[GDP (millions of $)])*100' />
+      </column>
+      <column caption='Services GDP%' datatype='real' name='[Calculation_1511802109264646149]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([Services GDP]/[GDP (millions of $)])*100' />
+      </column>
+      <column caption='Country_' datatype='string' name='[Country ]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Country/Economy]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Density (P/Km2)' datatype='integer' name='[Density_(P/Km2)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[GDP (millions of $)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Industry Sector GDP of % Contribution]' role='measure' type='quantitative' />
+      <column caption='Crop ' datatype='string' name='[Item]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Services GDP]' role='measure' type='quantitative' />
+      <column caption='Urban population' datatype='string' name='[Urban_population]' role='dimension' type='nominal' />
+      <column aggregation='None' datatype='integer' name='[Value (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='6' formula='[Value]' peg='0' size='7.75196e+06' />
+      </column>
+      <column datatype='integer' name='[Value]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Crops_AllData_Normalized.csv' datatype='table' name='[__tableau_internal_object_id__].[Crops_AllData_Normalized.csv_3588DBE167AE41E6BB28B5C39E890A0A]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='List of Countries by GDP Sector Composition.csv' datatype='table' name='[__tableau_internal_object_id__].[List of Countries by GDP Sector Composition.csv_BCD58B1DC18D482F987A5C99D867A0CC]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='world-data-2023.csv' datatype='table' name='[__tableau_internal_object_id__].[world-data-2023.csv_9E20C97870E04F399AFE5E9AF7B1E250]' role='measure' type='quantitative' />
+      <column-instance column='[Country ]' derivation='None' name='[none:Country :nk]' pivot='key' type='nominal' />
+      <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Agriculture GDP]' derivation='Sum' name='[sum:Agriculture GDP:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1511802109264007171]' derivation='Sum' name='[sum:Calculation_1511802109264007171:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1511802109264302084]' derivation='Sum' name='[sum:Calculation_1511802109264302084:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1511802109264646149]' derivation='Sum' name='[sum:Calculation_1511802109264646149:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[GDP (millions of $)]' derivation='Sum' name='[sum:GDP (millions of $):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Industry Sector GDP of % Contribution]' derivation='Sum' name='[sum:Industry Sector GDP of % Contribution:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Services GDP]' derivation='Sum' name='[sum:Services GDP:qk]' pivot='key' type='quantitative' />
+      <group caption='Action (Country)' hidden='true' name='[Action (Country)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Country]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Country_,Crop ,Year)' hidden='true' name='[Action (Country_,Crop ,Year)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Country ]' />
+          <groupfilter function='level-members' level='[Item]' />
+          <groupfilter function='level-members' level='[none:Year:ok]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.09plpi213ud9ws18hbhhq0gunja3]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Agriculture GDP:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Calculation_1511802109264007171:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Calculation_1511802109257740290:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Calculation_1511802109248065536:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Calculation_1511802109264646149:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Urban_population:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Industry Sector GDP of \% Contribution:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Services GDP:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Population:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:GDP (millions of $):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Land Area(Km2):qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Calculation_1511802109264302084:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Country :nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Austria&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Cabo Verde&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Cyprus&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Finland&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;India&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Libya&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Afghanistan&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Bolivia (Plurinational State of)&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Colombia&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Equatorial Guinea&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Guatemala&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Kiribati&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Antigua and Barbuda&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Brunei Darussalam&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Costa Rica&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Ethiopia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Haiti&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Latvia&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Bangladesh&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Central African Republic&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Democratic Republic of the Congo&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Gabon&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Ireland&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Malawi&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Azerbaijan&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Cambodia&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Czechia&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;France&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Indonesia&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Lithuania&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Argentina&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Bulgaria&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Côte d&apos;Ivoire&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Ethiopia PDR&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Honduras&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Lebanon&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Benin&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;China, mainland&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Egypt&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Grenada&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Kazakhstan&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Martinique&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Albania&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Bosnia and Herzegovina&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Comoros&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Eritrea&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Guinea&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Kuwait&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Belgium-Luxembourg&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;China, Hong Kong SAR&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Dominican Republic&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Ghana&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Japan&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Malta&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Armenia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Burkina Faso&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Croatia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Faroe Islands&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Hungary&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Lesotho&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Barbados&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Chad&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Denmark&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Gambia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Israel&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Malaysia&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Belarus&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Chile&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Djibouti&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Georgia&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Italy&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Maldives&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Belize&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;China, Macao SAR&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Ecuador&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Greece&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Jordan&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Marshall Islands&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Bhutan&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;China, Taiwan Province of&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;El Salvador&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Guadeloupe&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Kenya&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Mauritania&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Bahamas&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Cameroon&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Czechoslovakia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;French Guyana&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Iran (Islamic Republic of)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Luxembourg&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Australia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Burundi&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Cuba&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Fiji&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Iceland&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Liberia&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Algeria&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Botswana&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Congo&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Estonia&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Guinea-Bissau&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Kyrgyzstan&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Belgium&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;China&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Dominica&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Germany&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Jamaica&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Mali&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Bahrain&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Canada&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Democratic People&apos;s Republic of Korea&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;French Polynesia&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Iraq&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Madagascar&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Angola&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Brazil&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Cook Islands&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Eswatini&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Guyana&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Lao People&apos;s Democratic Republic&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <datasource-dependencies datasource='federated.0rmh2ry1l3ma3a16ebj811tfqx5y'>
+        <column caption='Forest Area in Km2' datatype='real' name='[Calculation_1511802109248065536]' role='measure' type='quantitative'>
+          <calculation class='tableau' formula='[Land Area(Km2)]*[Forested Area (%)]' />
+        </column>
+        <column caption='Agriculatural Land In Km2 ' datatype='real' name='[Calculation_1511802109257740290]' role='measure' type='quantitative'>
+          <calculation class='tableau' formula='[Land Area(Km2)]*[Agricultural Land( %)]' />
+        </column>
+        <column datatype='integer' name='[Land Area(Km2)]' role='measure' type='quantitative' />
+        <column datatype='integer' name='[Population]' role='measure' type='quantitative' />
+        <column caption='Urban population' datatype='integer' name='[Urban_population]' role='measure' type='quantitative' />
+        <column-instance column='[Calculation_1511802109248065536]' derivation='Sum' name='[sum:Calculation_1511802109248065536:qk]' pivot='key' type='quantitative' />
+        <column-instance column='[Calculation_1511802109257740290]' derivation='Sum' name='[sum:Calculation_1511802109257740290:qk]' pivot='key' type='quantitative' />
+        <column-instance column='[Land Area(Km2)]' derivation='Sum' name='[sum:Land Area(Km2):qk]' pivot='key' type='quantitative' />
+        <column-instance column='[Population]' derivation='Sum' name='[sum:Population:qk]' pivot='key' type='quantitative' />
+        <column-instance column='[Urban_population]' derivation='Sum' name='[sum:Urban_population:qk]' pivot='key' type='quantitative' />
+      </datasource-dependencies>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Crops_AllData_Normalized.csv' id='Crops_AllData_Normalized.csv_3588DBE167AE41E6BB28B5C39E890A0A'>
+            <properties context=''>
+              <relation connection='textscan.1078oqc0vycntf1gleguy0uld06m' name='Crops_AllData_Normalized.csv' table='[Crops_AllData_Normalized#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='Country ' ordinal='0' />
+                  <column datatype='string' name='Item' ordinal='1' />
+                  <column datatype='integer' name='Year' ordinal='2' />
+                  <column datatype='string' name='Unit' ordinal='3' />
+                  <column datatype='integer' name='Value' ordinal='4' />
+                  <column datatype='string' name='F6' ordinal='5' />
+                  <column datatype='string' name='F7' ordinal='6' />
+                  <column datatype='string' name='F8' ordinal='7' />
+                  <column datatype='string' name='F9' ordinal='8' />
+                  <column datatype='string' name='F10' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='List of Countries by GDP Sector Composition.csv' id='List of Countries by GDP Sector Composition.csv_BCD58B1DC18D482F987A5C99D867A0CC'>
+            <properties context=''>
+              <relation connection='textscan.1078oqc0vycntf1gleguy0uld06m' name='List of Countries by GDP Sector Composition.csv' table='[List of Countries by GDP Sector Composition#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='Country/Economy' ordinal='0' />
+                  <column datatype='integer' name='GDP (millions of $)' ordinal='1' />
+                  <column datatype='integer' name='Agriculture GDP' ordinal='2' />
+                  <column datatype='real' name='Agriculture Sector GDP of % Contribution' ordinal='3' />
+                  <column datatype='integer' name='World Wide Industry Sector GDP Contribution' ordinal='4' />
+                  <column datatype='real' name='Industry Sector GDP of % Contribution' ordinal='5' />
+                  <column datatype='integer' name='Services GDP' ordinal='6' />
+                  <column datatype='real' name='% of GDP' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='world-data-2023.csv' id='world-data-2023.csv_9E20C97870E04F399AFE5E9AF7B1E250'>
+            <properties context=''>
+              <relation connection='textscan.1078oqc0vycntf1gleguy0uld06m' name='world-data-2023.csv' table='[world-data-2023#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='string' name='Country' ordinal='0' />
+                  <column datatype='integer' name='Density_(P/Km2)' ordinal='1' />
+                  <column datatype='real' name='Agricultural Land( %)' ordinal='2' />
+                  <column datatype='string' name='Land Area(Km2)' ordinal='3' />
+                  <column datatype='string' name='Armed Forces size' ordinal='4' />
+                  <column datatype='real' name='Birth Rate' ordinal='5' />
+                  <column datatype='string' name='Co2-Emissions' ordinal='6' />
+                  <column datatype='real' name='CPI' ordinal='7' />
+                  <column datatype='real' name='CPI Change (%)' ordinal='8' />
+                  <column datatype='real' name='Fertility Rate' ordinal='9' />
+                  <column datatype='real' name='Forested Area (%)' ordinal='10' />
+                  <column datatype='string' name='Gasoline Price' ordinal='11' />
+                  <column datatype='string' name='GDP' ordinal='12' />
+                  <column datatype='real' name='Gross primary education enrollment (%)' ordinal='13' />
+                  <column datatype='real' name='Gross tertiary education enrollment (%)' ordinal='14' />
+                  <column datatype='real' name='Infant mortality' ordinal='15' />
+                  <column datatype='real' name='Life expectancy' ordinal='16' />
+                  <column datatype='integer' name='Maternal mortality ratio' ordinal='17' />
+                  <column datatype='string' name='Minimum wage' ordinal='18' />
+                  <column datatype='real' name='Out of pocket health expenditure' ordinal='19' />
+                  <column datatype='real' name='Physicians per thousand' ordinal='20' />
+                  <column datatype='string' name='Population' ordinal='21' />
+                  <column datatype='real' name='Population: Labor force participation (%)' ordinal='22' />
+                  <column datatype='real' name='Tax revenue (%)' ordinal='23' />
+                  <column datatype='real' name='Total tax rate' ordinal='24' />
+                  <column datatype='real' name='Unemployment rate' ordinal='25' />
+                  <column datatype='string' name='Urban_population' ordinal='26' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[Country/Economy]' />
+              <expression op='[Country ]' />
+            </expression>
+            <first-end-point object-id='List of Countries by GDP Sector Composition.csv_BCD58B1DC18D482F987A5C99D867A0CC' />
+            <second-end-point object-id='Crops_AllData_Normalized.csv_3588DBE167AE41E6BB28B5C39E890A0A' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[Country]' />
+              <expression op='[Country/Economy]' />
+            </expression>
+            <first-end-point object-id='world-data-2023.csv_9E20C97870E04F399AFE5E9AF7B1E250' />
+            <second-end-point object-id='List of Countries by GDP Sector Composition.csv_BCD58B1DC18D482F987A5C99D867A0CC' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name=' Spatial Distribution Across Countries'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Spatial Distribution Across Countries</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='world-data-2023+' name='federated.09plpi213ud9ws18hbhhq0gunja3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09plpi213ud9ws18hbhhq0gunja3'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Density (P/Km2)' datatype='integer' name='[Density_(P/Km2)]' role='measure' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Density_(P/Km2)]' derivation='Sum' name='[sum:Density_(P/Km2):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Country:nk]'>
+            <groupfilter function='level-members' level='[none:Country:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Country:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Density_(P/Km2):qk]' />
+              <color column='[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Density_(P/Km2):qk]' />
+              <text column='[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Country:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{C8F5B013-2DC9-4A5E-9B39-5F25029291E4}' />
+    </worksheet>
+    <worksheet name='Annual Crop Production Comparison by Country'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontname='Tableau Bold' fontsize='10'>Annual Crop Production Comparison by Country</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='world-data-2023+' name='federated.09plpi213ud9ws18hbhhq0gunja3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09plpi213ud9ws18hbhhq0gunja3'>
+            <column caption='Country_' datatype='string' name='[Country ]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Crop ' datatype='string' name='[Item]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Unit]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Value]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Unit]' derivation='Attribute' name='[attr:Unit:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Item]' derivation='None' name='[none:Item:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Value]' derivation='Sum' name='[sum:Value:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.09plpi213ud9ws18hbhhq0gunja3].[Action (Country_,Crop ,Year)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_7106AC69DC2C4090A7DCE0F036516188]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Country ]' />
+              <groupfilter function='level-members' level='[Item]' />
+              <groupfilter function='level-members' level='[none:Year:ok]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Item:nk]'>
+            <groupfilter function='level-members' level='[none:Item:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Year:qk]' included-values='in-range-or-null'>
+            <min>1961</min>
+            <max>2019</max>
+          </filter>
+          <filter class='quantitative' column='[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Value:qk]' included-values='non-null' />
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Item:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Value:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Year:qk]</column>
+            <column>[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Item:nk]</column>
+            <column>[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Value:qk]</column>
+            <column>[federated.09plpi213ud9ws18hbhhq0gunja3].[Action (Country_,Crop ,Year)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Value:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Year:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Value:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Value:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Value:qk]' />
+              <tooltip column='[federated.09plpi213ud9ws18hbhhq0gunja3].[attr:Unit:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Item:nk]</rows>
+        <cols>([federated.09plpi213ud9ws18hbhhq0gunja3].[none:Year:qk] + [federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Value:qk])</cols>
+      </table>
+      <simple-id uuid='{30F2C0FF-8A83-4D3B-99AE-33713F35871B}' />
+    </worksheet>
+    <worksheet name='Comparative Crop Yields by Year and Country'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Comparative Crop Yields by Year and Country</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='world-data-2023+' name='federated.09plpi213ud9ws18hbhhq0gunja3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09plpi213ud9ws18hbhhq0gunja3'>
+            <column caption='Country_' datatype='string' name='[Country ]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Crop ' datatype='string' name='[Item]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Unit]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Value]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Unit]' derivation='Attribute' name='[attr:Unit:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Country ]' derivation='None' name='[none:Country :nk]' pivot='key' type='nominal' />
+            <column-instance column='[Item]' derivation='None' name='[none:Item:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Value]' derivation='Sum' name='[sum:Value:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Item:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Item:nk]' />
+              <groupfilter function='member' level='[none:Item:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Year:qk]' included-values='in-range'>
+            <min>1961</min>
+            <max>2019</max>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Country :nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Value:qk]' shelf='rows' />
+            <shelf-sort-v2 dimension-to-sort='[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Item:nk]' direction='DESC' measure-to-sort-by='[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Value:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Year:qk]</column>
+            <column>[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Item:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Country :nk]' />
+              <size column='[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Value:qk]' />
+              <text column='[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Value:qk]' />
+              <tooltip column='[federated.09plpi213ud9ws18hbhhq0gunja3].[attr:Unit:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.09plpi213ud9ws18hbhhq0gunja3].[none:Item:nk] / [federated.09plpi213ud9ws18hbhhq0gunja3].[none:Country :nk])</rows>
+        <cols>[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Year:qk]</cols>
+        <show-full-range>
+          <column>[federated.09plpi213ud9ws18hbhhq0gunja3].[Value (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{A6FF2FF9-A203-4AD7-8403-4B2AC7DECD89}' />
+    </worksheet>
+    <worksheet name='Comparing CO2 Emissions and Forest Areas Across Countries'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Comparing CO2 Emissions and Forest Areas Across Countries</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='world-data-2023 (world-data-2023)' name='federated.0rmh2ry1l3ma3a16ebj811tfqx5y' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rmh2ry1l3ma3a16ebj811tfqx5y'>
+            <column caption='Forest Area in Km2' datatype='real' name='[Calculation_1511802109248065536]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Land Area(Km2)]*[Forested Area (%)]' />
+            </column>
+            <column datatype='integer' name='[Co2-Emissions]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='real' name='[Forested Area (%)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Land Area(Km2)]' role='measure' type='quantitative' />
+            <column-instance column='[Co2-Emissions]' derivation='None' name='[none:Co2-Emissions:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Forested Area (%)]' derivation='None' name='[none:Forested Area (%):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1511802109248065536]' derivation='Sum' name='[sum:Calculation_1511802109248065536:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Co2-Emissions]' derivation='Sum' name='[sum:Co2-Emissions:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[none:Co2-Emissions:qk]' included-values='all' />
+          <filter class='quantitative' column='[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[none:Forested Area (%):qk]' included-values='in-range'>
+            <min>0.0</min>
+            <max>0.98299999999999998</max>
+          </filter>
+          <filter class='quantitative' column='[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Co2-Emissions:qk]' included-values='non-null' />
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[none:Country:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Co2-Emissions:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[none:Forested Area (%):qk]</column>
+            <column>[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[none:Co2-Emissions:qk]</column>
+            <column>[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Co2-Emissions:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Calculation_1511802109248065536:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='height' field='[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[none:Country:nk]' value='68' />
+            <format attr='width' field='[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Co2-Emissions:qk]' value='76' />
+            <format attr='width' field='[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Calculation_1511802109248065536:qk]' value='76' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minheight' value='216' />
+                <format attr='maxheight' value='216' />
+                <format attr='minwidth' value='3740' />
+                <format attr='maxwidth' value='3740' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Co2-Emissions:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Calculation_1511802109248065536:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Co2-Emissions:qk] + [federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Calculation_1511802109248065536:qk])</rows>
+        <cols>[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[none:Country:nk]</cols>
+      </table>
+      <simple-id uuid='{BE5704D4-73DD-4270-9C2A-0C46E6712AE9}' />
+    </worksheet>
+    <worksheet name='Comparing Total and Agricultural GDP Across Nations'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Comparing Total and Agricultural GDP Across Nations</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='world-data-2023+' name='federated.09plpi213ud9ws18hbhhq0gunja3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09plpi213ud9ws18hbhhq0gunja3'>
+            <column datatype='integer' name='[Agriculture GDP]' role='measure' type='quantitative' />
+            <column caption='Agriculture GDP in %' datatype='real' name='[Calculation_1511802109264007171]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Agriculture GDP]/[GDP (millions of $)])*100' />
+            </column>
+            <column caption='Services GDP%' datatype='real' name='[Calculation_1511802109264646149]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Services GDP]/[GDP (millions of $)])*100' />
+            </column>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='integer' name='[GDP (millions of $)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Industry Sector GDP of % Contribution]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Services GDP]' role='measure' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1511802109264007171]' derivation='Sum' name='[sum:Calculation_1511802109264007171:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1511802109264646149]' derivation='Sum' name='[sum:Calculation_1511802109264646149:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[GDP (millions of $)]' derivation='Sum' name='[sum:GDP (millions of $):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Industry Sector GDP of % Contribution]' derivation='Sum' name='[sum:Industry Sector GDP of % Contribution:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Country:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Country:nk]' />
+              <groupfilter function='member' level='[none:Country:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <filter class='quantitative' column='[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Calculation_1511802109264007171:qk]' included-values='non-null' />
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Country:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:GDP (millions of $):qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Calculation_1511802109264007171:qk]</column>
+            <column>[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Country:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Calculation_1511802109264007171:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Calculation_1511802109264646149:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='height' field='[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Country:nk]' value='102' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.09plpi213ud9ws18hbhhq0gunja3].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minheight' value='310' />
+                <format attr='maxheight' value='310' />
+                <format attr='minwidth' value='3520' />
+                <format attr='maxwidth' value='3520' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:GDP (millions of $):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.09plpi213ud9ws18hbhhq0gunja3].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Calculation_1511802109264007171:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.09plpi213ud9ws18hbhhq0gunja3].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Calculation_1511802109264646149:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.09plpi213ud9ws18hbhhq0gunja3].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Industry Sector GDP of % Contribution:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.09plpi213ud9ws18hbhhq0gunja3].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minheight' value='310' />
+                <format attr='maxheight' value='310' />
+                <format attr='minwidth' value='3520' />
+                <format attr='maxwidth' value='3520' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.09plpi213ud9ws18hbhhq0gunja3].[sum:GDP (millions of $):qk] + ([federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Calculation_1511802109264007171:qk] + ([federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Industry Sector GDP of % Contribution:qk] + [federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Calculation_1511802109264646149:qk])))</rows>
+        <cols>[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Country:nk]</cols>
+      </table>
+      <simple-id uuid='{1EBEDFEC-9C8A-434C-980C-533F09442570}' />
+    </worksheet>
+    <worksheet name='GDP'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontname='Benton Sans Book' fontsize='12'>GDP </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='world-data-2023+' name='federated.09plpi213ud9ws18hbhhq0gunja3' />
+            <datasource caption='world-data-2023 (world-data-2023)' name='federated.0rmh2ry1l3ma3a16ebj811tfqx5y' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.09plpi213ud9ws18hbhhq0gunja3'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='integer' name='[GDP (millions of $)]' role='measure' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[GDP (millions of $)]' derivation='Sum' name='[sum:GDP (millions of $):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.0rmh2ry1l3ma3a16ebj811tfqx5y'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.09plpi213ud9ws18hbhhq0gunja3].[Latitude (generated)]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.09plpi213ud9ws18hbhhq0gunja3].[Longitude (generated)]' included-values='non-null' />
+          <slices>
+            <column>[federated.09plpi213ud9ws18hbhhq0gunja3].[Latitude (generated)]</column>
+            <column>[federated.09plpi213ud9ws18hbhhq0gunja3].[Longitude (generated)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.09plpi213ud9ws18hbhhq0gunja3].[Longitude (generated)]' field-type='quantitative' max='25304386.931227498' min='-19639860.332070727' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.09plpi213ud9ws18hbhhq0gunja3].[Latitude (generated)]' field-type='quantitative' max='16371746.177237671' min='-5002115.9443724249' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Country:nk]' value='false' />
+            <format attr='break-on-special' field='[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Country:nk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Country:nk]' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Country:nk]' />
+              <color column='[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:GDP (millions of $):qk]' />
+              <geometry column='[federated.09plpi213ud9ws18hbhhq0gunja3].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.09plpi213ud9ws18hbhhq0gunja3].[Latitude (generated)]</rows>
+        <cols>[federated.09plpi213ud9ws18hbhhq0gunja3].[Longitude (generated)]</cols>
+        <join-lod-include-overrides>
+          <column>[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[Country]</column>
+        </join-lod-include-overrides>
+      </table>
+      <simple-id uuid='{3CD178B2-CE91-4165-9FE9-A841CC529DA4}' />
+    </worksheet>
+    <worksheet name='Population Distribution and Land Utilization Across Countries'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontname='Benton Sans Book' fontsize='10'>Population Distribution and Land Utilization Across Countries</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='world-data-2023+' name='federated.09plpi213ud9ws18hbhhq0gunja3' />
+            <datasource caption='world-data-2023 (world-data-2023)' name='federated.0rmh2ry1l3ma3a16ebj811tfqx5y' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09plpi213ud9ws18hbhhq0gunja3'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.0rmh2ry1l3ma3a16ebj811tfqx5y'>
+            <column datatype='real' name='[Agricultural Land( %)]' role='measure' type='quantitative' />
+            <column caption='Forest Area in Km2' datatype='real' name='[Calculation_1511802109248065536]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Land Area(Km2)]*[Forested Area (%)]' />
+            </column>
+            <column caption='Agriculatural Land In Km2 ' datatype='real' name='[Calculation_1511802109257740290]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Land Area(Km2)]*[Agricultural Land( %)]' />
+            </column>
+            <column datatype='real' name='[Forested Area (%)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Land Area(Km2)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Population]' role='measure' type='quantitative' />
+            <column caption='Urban population' datatype='integer' name='[Urban_population]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_1511802109248065536]' derivation='Sum' name='[sum:Calculation_1511802109248065536:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1511802109257740290]' derivation='Sum' name='[sum:Calculation_1511802109257740290:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Land Area(Km2)]' derivation='Sum' name='[sum:Land Area(Km2):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Population]' derivation='Sum' name='[sum:Population:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Urban_population]' derivation='Sum' name='[sum:Urban_population:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.09plpi213ud9ws18hbhhq0gunja3].[:Measure Names]'>
+            <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Calculation_1511802109248065536:qk]&quot;' user:op='manual' />
+          </filter>
+          <filter class='categorical' column='[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Country:nk]'>
+            <groupfilter function='level-members' level='[none:Country:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <manual-sort column='[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Country:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;China&quot;</bucket>
+              <bucket>&quot;India&quot;</bucket>
+              <bucket>&quot;United States&quot;</bucket>
+              <bucket>&quot;Indonesia&quot;</bucket>
+              <bucket>&quot;Pakistan&quot;</bucket>
+              <bucket>&quot;Brazil&quot;</bucket>
+              <bucket>&quot;Nigeria&quot;</bucket>
+              <bucket>&quot;Bangladesh&quot;</bucket>
+              <bucket>&quot;Russia&quot;</bucket>
+              <bucket>&quot;Japan&quot;</bucket>
+              <bucket>&quot;Mexico&quot;</bucket>
+              <bucket>&quot;Ethiopia&quot;</bucket>
+              <bucket>&quot;Philippines&quot;</bucket>
+              <bucket>&quot;Egypt&quot;</bucket>
+              <bucket>&quot;Vietnam&quot;</bucket>
+              <bucket>&quot;Democratic Republic of the Congo&quot;</bucket>
+              <bucket>&quot;Turkey&quot;</bucket>
+              <bucket>&quot;Germany&quot;</bucket>
+              <bucket>&quot;Iran&quot;</bucket>
+              <bucket>&quot;Thailand&quot;</bucket>
+              <bucket>&quot;France&quot;</bucket>
+              <bucket>&quot;United Kingdom&quot;</bucket>
+              <bucket>&quot;Italy&quot;</bucket>
+              <bucket>&quot;South Africa&quot;</bucket>
+              <bucket>&quot;Tanzania&quot;</bucket>
+              <bucket>&quot;Myanmar&quot;</bucket>
+              <bucket>&quot;Kenya&quot;</bucket>
+              <bucket>&quot;South Korea&quot;</bucket>
+              <bucket>&quot;Colombia&quot;</bucket>
+              <bucket>&quot;Spain&quot;</bucket>
+              <bucket>&quot;Argentina&quot;</bucket>
+              <bucket>&quot;Ukraine&quot;</bucket>
+              <bucket>&quot;Uganda&quot;</bucket>
+              <bucket>&quot;Algeria&quot;</bucket>
+              <bucket>&quot;Sudan&quot;</bucket>
+              <bucket>&quot;Iraq&quot;</bucket>
+              <bucket>&quot;Afghanistan&quot;</bucket>
+              <bucket>&quot;Poland&quot;</bucket>
+              <bucket>&quot;Canada&quot;</bucket>
+              <bucket>&quot;Morocco&quot;</bucket>
+              <bucket>&quot;Saudi Arabia&quot;</bucket>
+              <bucket>&quot;Uzbekistan&quot;</bucket>
+              <bucket>&quot;Peru&quot;</bucket>
+              <bucket>&quot;Malaysia&quot;</bucket>
+              <bucket>&quot;Angola&quot;</bucket>
+              <bucket>&quot;Ghana&quot;</bucket>
+              <bucket>&quot;Mozambique&quot;</bucket>
+              <bucket>&quot;Yemen&quot;</bucket>
+              <bucket>&quot;Nepal&quot;</bucket>
+              <bucket>&quot;Venezuela&quot;</bucket>
+              <bucket>&quot;Madagascar&quot;</bucket>
+              <bucket>&quot;Cameroon&quot;</bucket>
+              <bucket>&quot;Australia&quot;</bucket>
+              <bucket>&quot;Ivory Coast&quot;</bucket>
+              <bucket>&quot;North Korea&quot;</bucket>
+              <bucket>&quot;Niger&quot;</bucket>
+              <bucket>&quot;Sri Lanka&quot;</bucket>
+              <bucket>&quot;Burkina Faso&quot;</bucket>
+              <bucket>&quot;Mali&quot;</bucket>
+              <bucket>&quot;Romania&quot;</bucket>
+              <bucket>&quot;Chile&quot;</bucket>
+              <bucket>&quot;Malawi&quot;</bucket>
+              <bucket>&quot;Kazakhstan&quot;</bucket>
+              <bucket>&quot;Zambia&quot;</bucket>
+              <bucket>&quot;Ecuador&quot;</bucket>
+              <bucket>&quot;Netherlands&quot;</bucket>
+              <bucket>&quot;Syria&quot;</bucket>
+              <bucket>&quot;Guatemala&quot;</bucket>
+              <bucket>&quot;Cambodia&quot;</bucket>
+              <bucket>&quot;Senegal&quot;</bucket>
+              <bucket>&quot;Chad&quot;</bucket>
+              <bucket>&quot;Somalia&quot;</bucket>
+              <bucket>&quot;Zimbabwe&quot;</bucket>
+              <bucket>&quot;Guinea&quot;</bucket>
+              <bucket>&quot;Rwanda&quot;</bucket>
+              <bucket>&quot;Benin&quot;</bucket>
+              <bucket>&quot;Tunisia&quot;</bucket>
+              <bucket>&quot;Burundi&quot;</bucket>
+              <bucket>&quot;Bolivia&quot;</bucket>
+              <bucket>&quot;Belgium&quot;</bucket>
+              <bucket>&quot;Cuba&quot;</bucket>
+              <bucket>&quot;Haiti&quot;</bucket>
+              <bucket>&quot;Dominican Republic&quot;</bucket>
+              <bucket>&quot;Greece&quot;</bucket>
+              <bucket>&quot;Czech Republic&quot;</bucket>
+              <bucket>&quot;Sweden&quot;</bucket>
+              <bucket>&quot;Portugal&quot;</bucket>
+              <bucket>&quot;Jordan&quot;</bucket>
+              <bucket>&quot;Azerbaijan&quot;</bucket>
+              <bucket>&quot;United Arab Emirates&quot;</bucket>
+              <bucket>&quot;Hungary&quot;</bucket>
+              <bucket>&quot;Honduras&quot;</bucket>
+              <bucket>&quot;Belarus&quot;</bucket>
+              <bucket>&quot;Tajikistan&quot;</bucket>
+              <bucket>&quot;Israel&quot;</bucket>
+              <bucket>&quot;Austria&quot;</bucket>
+              <bucket>&quot;Papua New Guinea&quot;</bucket>
+              <bucket>&quot;Switzerland&quot;</bucket>
+              <bucket>&quot;Togo&quot;</bucket>
+              <bucket>&quot;Sierra Leone&quot;</bucket>
+              <bucket>&quot;Laos&quot;</bucket>
+              <bucket>&quot;Paraguay&quot;</bucket>
+              <bucket>&quot;Bulgaria&quot;</bucket>
+              <bucket>&quot;Serbia&quot;</bucket>
+              <bucket>&quot;Lebanon&quot;</bucket>
+              <bucket>&quot;Libya&quot;</bucket>
+              <bucket>&quot;Nicaragua&quot;</bucket>
+              <bucket>&quot;Kyrgyzstan&quot;</bucket>
+              <bucket>&quot;El Salvador&quot;</bucket>
+              <bucket>&quot;Eritrea&quot;</bucket>
+              <bucket>&quot;Turkmenistan&quot;</bucket>
+              <bucket>&quot;Denmark&quot;</bucket>
+              <bucket>&quot;Singapore&quot;</bucket>
+              <bucket>&quot;Finland&quot;</bucket>
+              <bucket>&quot;Slovakia&quot;</bucket>
+              <bucket>&quot;Republic of the Congo&quot;</bucket>
+              <bucket>&quot;Norway&quot;</bucket>
+              <bucket>&quot;Oman&quot;</bucket>
+              <bucket>&quot;Costa Rica&quot;</bucket>
+              <bucket>&quot;Republic of Ireland&quot;</bucket>
+              <bucket>&quot;Liberia&quot;</bucket>
+              <bucket>&quot;New Zealand&quot;</bucket>
+              <bucket>&quot;Central African Republic&quot;</bucket>
+              <bucket>&quot;Mauritania&quot;</bucket>
+              <bucket>&quot;Panama&quot;</bucket>
+              <bucket>&quot;Kuwait&quot;</bucket>
+              <bucket>&quot;Croatia&quot;</bucket>
+              <bucket>&quot;Georgia&quot;</bucket>
+              <bucket>&quot;East Timor&quot;</bucket>
+              <bucket>&quot;Uruguay&quot;</bucket>
+              <bucket>&quot;Bosnia and Herzegovina&quot;</bucket>
+              <bucket>&quot;Mongolia&quot;</bucket>
+              <bucket>&quot;Armenia&quot;</bucket>
+              <bucket>&quot;Jamaica&quot;</bucket>
+              <bucket>&quot;Albania&quot;</bucket>
+              <bucket>&quot;Qatar&quot;</bucket>
+              <bucket>&quot;Lithuania&quot;</bucket>
+              <bucket>&quot;Moldova&quot;</bucket>
+              <bucket>&quot;Namibia&quot;</bucket>
+              <bucket>&quot;The Gambia&quot;</bucket>
+              <bucket>&quot;Botswana&quot;</bucket>
+              <bucket>&quot;Gabon&quot;</bucket>
+              <bucket>&quot;Lesotho&quot;</bucket>
+              <bucket>&quot;Slovenia&quot;</bucket>
+              <bucket>&quot;Guinea-Bissau&quot;</bucket>
+              <bucket>&quot;Latvia&quot;</bucket>
+              <bucket>&quot;Bahrain&quot;</bucket>
+              <bucket>&quot;Trinidad and Tobago&quot;</bucket>
+              <bucket>&quot;Equatorial Guinea&quot;</bucket>
+              <bucket>&quot;Estonia&quot;</bucket>
+              <bucket>&quot;Mauritius&quot;</bucket>
+              <bucket>&quot;Cyprus&quot;</bucket>
+              <bucket>&quot;Djibouti&quot;</bucket>
+              <bucket>&quot;Fiji&quot;</bucket>
+              <bucket>&quot;Comoros&quot;</bucket>
+              <bucket>&quot;Guyana&quot;</bucket>
+              <bucket>&quot;Bhutan&quot;</bucket>
+              <bucket>&quot;Solomon Islands&quot;</bucket>
+              <bucket>&quot;Luxembourg&quot;</bucket>
+              <bucket>&quot;Montenegro&quot;</bucket>
+              <bucket>&quot;Suriname&quot;</bucket>
+              <bucket>&quot;Maldives&quot;</bucket>
+              <bucket>&quot;Malta&quot;</bucket>
+              <bucket>&quot;Cape Verde&quot;</bucket>
+              <bucket>&quot;Brunei&quot;</bucket>
+              <bucket>&quot;Belize&quot;</bucket>
+              <bucket>&quot;The Bahamas&quot;</bucket>
+              <bucket>&quot;Iceland&quot;</bucket>
+              <bucket>&quot;Vanuatu&quot;</bucket>
+              <bucket>&quot;Barbados&quot;</bucket>
+              <bucket>&quot;Samoa&quot;</bucket>
+              <bucket>&quot;Saint Lucia&quot;</bucket>
+              <bucket>&quot;Kiribati&quot;</bucket>
+              <bucket>&quot;Federated States of Micronesia&quot;</bucket>
+              <bucket>&quot;Grenada&quot;</bucket>
+              <bucket>&quot;Saint Vincent and the Grenadines&quot;</bucket>
+              <bucket>&quot;Tonga&quot;</bucket>
+              <bucket>&quot;Seychelles&quot;</bucket>
+              <bucket>&quot;Antigua and Barbuda&quot;</bucket>
+              <bucket>&quot;Andorra&quot;</bucket>
+              <bucket>&quot;Dominica&quot;</bucket>
+              <bucket>&quot;Marshall Islands&quot;</bucket>
+              <bucket>&quot;Saint Kitts and Nevis&quot;</bucket>
+              <bucket>&quot;Liechtenstein&quot;</bucket>
+              <bucket>&quot;San Marino&quot;</bucket>
+              <bucket>&quot;Palau&quot;</bucket>
+              <bucket>&quot;Tuvalu&quot;</bucket>
+              <bucket>%all%</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='quantitative' column='[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Calculation_1511802109257740290:qk]' included-values='non-null' />
+          <filter class='quantitative' column='[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Urban_population:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Urban_population:qk]</column>
+            <column>[federated.09plpi213ud9ws18hbhhq0gunja3].[:Measure Names]</column>
+            <column>[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Calculation_1511802109257740290:qk]</column>
+            <column>[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Country:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Urban_population:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Calculation_1511802109257740290:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='height' field='[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Country:nk]' value='86' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.09plpi213ud9ws18hbhhq0gunja3].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minheight' value='320' />
+                <format attr='maxheight' value='320' />
+                <format attr='minwidth' value='3740' />
+                <format attr='maxwidth' value='3740' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Population:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.09plpi213ud9ws18hbhhq0gunja3].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Urban_population:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.09plpi213ud9ws18hbhhq0gunja3].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Land Area(Km2):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.09plpi213ud9ws18hbhhq0gunja3].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Calculation_1511802109257740290:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.09plpi213ud9ws18hbhhq0gunja3].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Population:qk] + ([federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Urban_population:qk] + ([federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Land Area(Km2):qk] + [federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[sum:Calculation_1511802109257740290:qk])))</rows>
+        <cols>[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Country:nk]</cols>
+      </table>
+      <simple-id uuid='{2FB14C65-79C0-44B1-BBF4-831C7B8DA54B}' />
+    </worksheet>
+    <worksheet name='Sheet 8'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{C4BEB39F-CE8F-4B65-8660-6BB3C29CC676}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 2'>
+      <style />
+      <size maxheight='1400' maxwidth='1600' minheight='1400' minwidth='1600' sizing-mode='fixed' />
+      <datasources>
+        <datasource caption='world-data-2023+' name='federated.09plpi213ud9ws18hbhhq0gunja3' />
+      </datasources>
+      <datasource-dependencies datasource='federated.09plpi213ud9ws18hbhhq0gunja3'>
+        <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+        <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+      </datasource-dependencies>
+      <zones>
+        <zone forceUpdate='true' h='7786' id='3' type-v2='text' w='99688' x='0' y='429'>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='20'>Global Insights: Demographics, Agriculture, and Economic Dynamics</run>
+          </formatted-text>
+        </zone>
+        <zone h='25500' id='4' name='GDP' w='33313' x='750' y='8286' />
+        <zone h='25214' id='5' name='Comparing CO2 Emissions and Forest Areas Across Countries' w='33313' x='35438' y='8357' />
+        <zone h='25214' id='6' name=' Spatial Distribution Across Countries' w='29500' x='69688' y='8286' />
+        <zone h='32643' id='7' name='Population Distribution and Land Utilization Across Countries' w='45125' x='875' y='35429' />
+        <zone h='7214' id='8' leg-item-layout='vert' name='Population Distribution and Land Utilization Across Countries' pane-specification-id='2' param='[federated.09plpi213ud9ws18hbhhq0gunja3].[:Measure Names]' type-v2='color' w='7938' x='40438' y='60643' />
+        <zone h='32786' id='9' name='Comparing Total and Agricultural GDP Across Nations' w='50438' x='49000' y='35571' />
+        <zone h='30429' id='10' name='Annual Crop Production Comparison by Country' w='47188' x='1188' y='71143' />
+        <zone h='4643' id='11' name='Annual Crop Production Comparison by Country' param='[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Year:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='10000' x='36438' y='70429' />
+        <zone h='29214' id='12' name='Comparative Crop Yields by Year and Country' w='48875' x='50500' y='71357' />
+        <zone h='2571' id='13' name='GDP' pane-specification-id='0' param='[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:GDP (millions of $):qk]' type-v2='color' w='18563' x='15188' y='8286' />
+        <zone h='5571' id='16' name='Comparing CO2 Emissions and Forest Areas Across Countries' pane-specification-id='4' param='[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[:Measure Names]' type-v2='color' w='4125' x='64500' y='27786' />
+        <zone h='9000' id='17' name='Comparing Total and Agricultural GDP Across Nations' pane-specification-id='1' param='[federated.09plpi213ud9ws18hbhhq0gunja3].[:Measure Names]' type-v2='color' w='4625' x='94813' y='59714' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='2450' minheight='2450' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='27' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98858' id='26' param='vert' type-v2='layout-flow' w='99000' x='500' y='571'>
+                <zone forceUpdate='true' h='7786' id='3' type-v2='text' w='99688' x='0' y='429'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Benton Sans Book' fontsize='20'>Global Insights: Demographics, Agriculture, and Economic Dynamics</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='25500' id='4' is-fixed='true' name='GDP' w='33313' x='750' y='8286'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='2571' id='13' name='GDP' pane-specification-id='0' param='[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:GDP (millions of $):qk]' type-v2='color' w='18563' x='15188' y='8286'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='25214' id='6' is-fixed='true' name=' Spatial Distribution Across Countries' w='29500' x='69688' y='8286'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='25214' id='5' is-fixed='true' name='Comparing CO2 Emissions and Forest Areas Across Countries' w='33313' x='35438' y='8357'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5571' id='16' name='Comparing CO2 Emissions and Forest Areas Across Countries' pane-specification-id='4' param='[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[:Measure Names]' type-v2='color' w='4125' x='64500' y='27786'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='32643' id='7' is-fixed='true' name='Population Distribution and Land Utilization Across Countries' w='45125' x='875' y='35429'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7214' id='8' leg-item-layout='vert' name='Population Distribution and Land Utilization Across Countries' pane-specification-id='2' param='[federated.09plpi213ud9ws18hbhhq0gunja3].[:Measure Names]' type-v2='color' w='7938' x='40438' y='60643'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='32786' id='9' is-fixed='true' name='Comparing Total and Agricultural GDP Across Nations' w='50438' x='49000' y='35571'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9000' id='17' name='Comparing Total and Agricultural GDP Across Nations' pane-specification-id='1' param='[federated.09plpi213ud9ws18hbhhq0gunja3].[:Measure Names]' type-v2='color' w='4625' x='94813' y='59714'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='4643' id='11' name='Annual Crop Production Comparison by Country' param='[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Year:qk]' show-domain='false' show-null-ctrls='false' type-v2='filter' w='10000' x='36438' y='70429'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='30429' id='10' is-fixed='true' name='Annual Crop Production Comparison by Country' w='47188' x='1188' y='71143'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='29214' id='12' is-fixed='true' name='Comparative Crop Yields by Year and Country' w='48875' x='50500' y='71357'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{76BDD770-C2CC-49DF-858B-0D829ABA7904}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='63'>
+    <window class='worksheet' name='Comparing CO2 Emissions and Forest Areas Across Countries'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[none:Co2-Emissions:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[none:Forested Area (%):qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='4' param='[federated.0rmh2ry1l3ma3a16ebj811tfqx5y].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{4BECDBEE-7AEC-4307-8F70-A0350426AB94}' />
+    </window>
+    <window class='worksheet' name=' Spatial Distribution Across Countries'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Density_(P/Km2):qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E8B0D7F1-FAC7-4AE2-8C78-CC6F6D41E4E6}' />
+    </window>
+    <window class='worksheet' name='Annual Crop Production Comparison by Country'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Year:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4D039B19-16C4-40FA-A287-6C54358DFBC4}' />
+    </window>
+    <window class='worksheet' name='Comparative Crop Yields by Year and Country'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.09plpi213ud9ws18hbhhq0gunja3].[none:Country :nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:Value:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E2B91F88-48B4-4BAF-A180-011B90EDA84B}' />
+    </window>
+    <window class='worksheet' name='GDP'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.09plpi213ud9ws18hbhhq0gunja3].[sum:GDP (millions of $):qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3A4A88C0-92AD-4CC9-9BE8-5193D313E37B}' />
+    </window>
+    <window class='worksheet' name='Population Distribution and Land Utilization Across Countries'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.09plpi213ud9ws18hbhhq0gunja3].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{85FCA07D-7F02-456E-AA6B-0BE9290A1DE5}' />
+    </window>
+    <window class='worksheet' name='Comparing Total and Agricultural GDP Across Nations'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.09plpi213ud9ws18hbhhq0gunja3].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8FAD4B16-3BEF-404C-935E-3C02BD871CD1}' />
+    </window>
+    <window class='dashboard' name='Dashboard 2'>
+      <viewpoints>
+        <viewpoint name=' Spatial Distribution Across Countries' />
+        <viewpoint name='Annual Crop Production Comparison by Country' />
+        <viewpoint name='Comparative Crop Yields by Year and Country'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='Comparing CO2 Emissions and Forest Areas Across Countries'>
+          <zoom type='fit-height' />
+        </viewpoint>
+        <viewpoint name='Comparing Total and Agricultural GDP Across Nations'>
+          <zoom type='fit-height' />
+        </viewpoint>
+        <viewpoint name='GDP'>
+          <zoom type='entire-view' />
+          <default-map-tool-selection tool='1' />
+        </viewpoint>
+        <viewpoint name='Population Distribution and Land Utilization Across Countries'>
+          <zoom type='fit-height' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{8A7B453B-7694-4851-9BE8-EE02EBCF67B0}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 8'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='30'>
+            <card type='columns' />
+          </strip>
+          <strip size='30'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{28400A26-1880-434B-BAA7-FF6CB75E9469}' />
+    </window>
+  </windows>
+</workbook>

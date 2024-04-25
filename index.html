@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+  <head>
+    <title>HTML Starter</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+      .message {
+        font-size: 2em; /* Adjusted for better readability */
+        text-align: center;
+        margin-top: 20px;
+      }
+      .description {
+        font-size: 1.2em;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+      .section-header {
+        font-size: 1.5em;
+        text-align: left;
+        margin-top: 30px;
+      }
+      .section-content {
+        font-size: 1em;
+        margin-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="message">Visualisation on GDP Dataset</div>
+    <div class="description">
+      This dashboard provides an interactive exploration of
+      global GDP data, illustrating the economic
+      performance, sector contributions, and their impacts
+      across different countries and years.
+    </div>
+    <div
+      class="tableauPlaceholder"
+      id="viz1714002950935"
+      style="position: relative"
+    >
+      <noscript>
+        <a href="#">
+          <img
+            alt="Story 1 "
+            src="https://public.tableau.com/static/images/Vi/Visualisation_17138802093200/Story1/1_rss.png"
+            style="border: none"
+          />
+        </a>
+      </noscript>
+      <object class="tableauViz" style="display: none">
+        <param
+          name="host_url"
+          value="https%3A%2F%2Fpublic.tableau.com%2F"
+        />
+        <param name="embed_code_version" value="3" />
+        <param name="site_root" value="" />
+        <param
+          name="name"
+          value="Visualisation_17138802093200/Story1"
+        />
+        <param name="tabs" value="no" />
+        <param name="toolbar" value="yes" />
+        <param
+          name="static_image"
+          value="https://public.tableau.com/static/images/Vi/Visualisation_17138802093200/Story1/1.png"
+        />
+        <param name="animate_transition" value="yes" />
+        <param name="display_static_image" value="yes" />
+        <param name="display_spinner" value="yes" />
+        <param name="display_overlay" value="yes" />
+        <param name="display_count" value="yes" />
+        <param name="language" value="en-US" />
+      </object>
+    </div>
+    <script type="text/javascript">
+      var divElement = document.getElementById(
+        'viz1714002950935',
+      );
+      var vizElement =
+        divElement.getElementsByTagName('object')[0];
+      vizElement.style.width = '100%';
+      vizElement.style.height =
+        divElement.offsetWidth * 0.75 + 'px';
+      var scriptElement = document.createElement('script');
+      scriptElement.src =
+        'https://public.tableau.com/javascripts/api/viz_v1.js';
+      vizElement.parentNode.insertBefore(
+        scriptElement,
+        vizElement,
+      );
+    </script>
+
+    <div class="section-header">
+      Project Overview and Workflow
+    </div>
+    <p class="section-content">
+      This project harnesses the power of data visualization
+      to explore and analyze global GDP data. Starting with
+      data abstraction, we collected and cleaned GDP data,
+      segmenting it by country and economic sectors such as
+      agriculture, industry, and services. The
+      transformation process involved normalizing the data
+      to ensure compatibility across different visualization
+      tools.
+    </p>
+    <p class="section-content">
+      Using Tableau and D3.js, we crafted interactive
+      visualizations that allow users to engage with the
+      data dynamically. Tableau was utilized for its robust
+      data handling and visualization capabilities, enabling
+      the creation of detailed, interactive charts and maps.
+      D3.js was employed to develop custom visualizations
+      like bubble charts and area plots, providing a deeper
+      level of interaction and customization.
+    </p>
+    <p class="section-content">
+      Each visualization aims to provide insights into
+      different aspects of economic performance, from
+      general GDP overviews to detailed sector contributions
+      and trends in agricultural land use. The project is
+      hosted on VizHub, allowing for real-time data
+      interaction and accessibility from anywhere in the
+      world.
+    </p>
+    <p class="section-content">
+      This comprehensive approach from data collection to
+      interactive visualization demonstrates the power of
+      modern data science and visualization techniques in
+      making economic data accessible and understandable.
+    </p>
+
+    <div class="section-header">
+      Interactive GDP Overview
+    </div>
+    <p class="section-content">
+      Navigate through the interactive charts to understand
+      the dynamics of GDP changes over time and across
+      different countries. Analyze trends and extract
+      insights on economic growth and sector contributions.
+    </p>
+    <div id="chart"></div>
+
+    <div class="section-header">
+      Distribution of GDP by Country
+    </div>
+    <p class="section-content">
+      The violin chart offers a visual distribution of GDP
+      across various nations, highlighting disparities and
+      economic density to understand global economic
+      standings better.
+    </p>
+    <div id="violin"></div>
+
+    <div class="section-header">
+      Agriculture's Impact on GDP
+    </div>
+    <p class="section-content">
+      This bubble chart shows the relationship between
+      agricultural land use and GDP, underscoring the
+      significance of agriculture in sustaining economic
+      stability and growth in various regions.
+    </p>
+    <div id="bubble"></div>
+
+    <div class="section-header">
+      Trends in Agricultural Land Use
+    </div>
+    <p class="section-content">
+      The area chart tracks changes in agricultural land use
+      over time, depicting how shifts in agricultural
+      practices and policies impact economic outputs and
+      land management.
+    </p>
+    <div id="areaPlot"></div>
+
+    <div class="section-header">
+      Historical Data Streams
+    </div>
+    <p class="section-content">
+      Experience the progression of multiple data categories
+      over time with the stream graph, which provides a
+      compelling visual representation of trends, cycles,
+      and shifts in a dynamic landscape.
+    </p>
+    <div id="streamgraph"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

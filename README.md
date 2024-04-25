@@ -56,3 +56,7 @@ This project demonstrates the power of data visualization in making complex econ
 - Data sourced from [[International Monetory Fund](https://www.imf.org/external/datamapper/index.php)]
 - Visualizations created using Tableau and D3.js
 - Hosted on VizHub
+
+
+
+## Deployed Visualizations in Vizhub can be viewed here : https://vizhub.com/ganeshseeram123/bec83d9d867146cbb77ed1c5700a5a3c
